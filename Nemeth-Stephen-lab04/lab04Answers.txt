@@ -1,0 +1,59 @@
+1) The null character is being counted as well, driving up the
+character count from the four characters you can see to
+five including the null character.
+
+2) Since s1 and s2 are char arrays, their names are pointers housing
+memory addresses form the first element in their array. Since the addresses
+are differenet, s1 == s2 will always return false unless they are
+somehow pointing to the same memory address.
+
+3) s3 and s4 are c++ string meaning that you are actually comparing
+the contents of the string when s3 == s4 is called. Since they have the
+same contents, s3 == s4 returns true. s1 and s2 are c-style strings and
+are stored as arrays with a terminating null character.
+
+4) The values are being casted into an unsigned long and longs are
+stored as 8 bytes in memory. One element will take up 8 bytes and the next
+element will be 8 addresses over. In this case d[0] is at 500, d[2] is at 508,
+d[3] is at 516, and d[5] is at 524. The push_back operating to subtracting
+the memory address of d[i + 1] from d[i], since the addresses contains longs
+and are 8 bytes apart the vector will house four elements that are equal to 8.
+
+5) The character was changed to 'j' because p1 was created and that is a pointer
+to a char, in this case that is to the first element in s4. The next line is using
+a dereference operator to assign the value p1 is pointing too to a 'j', therefore
+changing the first element in s4. Next a dereference operator is used again, but on
+the memory address for the fourth element in s4 to change the element there to an 's'.
+
+6) Beause there is a null character stored in the string terminating the
+string sequence after "zoey".
+
+7) The value of (q[1] + q[2]) is 8 because the for loop populates the
+array with [5,10,15,20.25], but then the function afterwards takes in the
+value of q[1] and a reference to q[2], assigns each to -1 and -2 respectfully,
+so now the array is [5,10,-2,20,25]. q[1] + q[2] is equal to 10 + -2 which is 8.
+The correct syntax for this is (q[1] + q[2]) not *(q[1] + q[2]) because the
+* operator needs a pointer variable pointing to an address in memory and neither
+q[1] or q[2] are address in memory but actual integer variables. If you wanted to
+do this with pointer arithmetic you would do (*(q + 1) + *(q + 2)) which would
+return the same result but q represents a pointer to the first element in
+the array.
+
+8) q is a pointer to the first element in stored in the array q its value
+is the address of the first item in the array. At run timethe program allocates 5 spaces for
+ints which are 4 bytes each. q represents the memory address of the first value, q + 1 is the
+memory address of the second value,q + 2 is the memory address of the third value, q + 3 is
+the memory address of the fourth value, and q + 4 is the memory address of the fifth value.
+
+9) Each time the program is run the OS running on odin
+has to allocate new memory locations to house those variables,
+each time the program ends those variables are discarded from
+memory due to how stack memory works.
+
+10) For the output for 9 they are represented in decimal because
+it is being casted into an unsigned long which is a decimal
+representation. For the output for 10, it is being outputted in
+hexadecimal because what is being printed is the value
+of a pointer which is a memory address and those are stored as
+hexadecimal numbers. Also for 10, it is printed with the '0x'
+identifier meaning it is hexadecimal.

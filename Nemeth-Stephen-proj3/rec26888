@@ -1,0 +1,21 @@
+Nemeth-Stephen-proj3:
+total 808
+-rw-r--r--. 1 myid   2652 Apr  4 14:05 Board.cpp
+-rw-r--r--. 1 myid   2436 Apr  4 14:15 Board.h
+-rw-r--r--. 1 myid  96792 Apr  4 14:27 Board.o
+-rw-r--r--. 1 myid    467 Apr  3 19:17 HumanPlayer.cpp
+-rw-r--r--. 1 myid    959 Apr  3 14:24 HumanPlayer.h
+-rw-r--r--. 1 myid  92512 Apr  4 14:27 HumanPlayer.o
+-rw-r--r--. 1 myid    761 Mar 26 12:09 Makefile
+-rw-r--r--. 1 myid    123 Apr  3 14:00 Player.cpp
+-rw-r--r--. 1 myid    947 Apr  3 14:23 Player.h
+-rw-r--r--. 1 myid 134456 Apr  4 14:27 Player.o
+-rw-r--r--. 1 myid   1600 Apr  4 12:21 proj3.cpp
+-rw-r--r--. 1 myid 104704 Apr  4 14:27 proj3.o
+-rwxr-xr-x. 1 myid 233648 Apr  4 14:27 proj3.out
+-rw-r--r--. 1 myid    307 Apr  3 18:55 README
+-rw-r--r--. 1 myid      0 Apr  4 14:27 rec26888
+-rw-r--r--. 1 myid    574 Apr  1 16:02 SimpleComputerPlayer.cpp
+-rw-r--r--. 1 myid   1224 Apr  3 17:46 SimpleComputerPlayer.h
+-rw-r--r--. 1 myid 108216 Apr  4 14:27 SimpleComputerPlayer.o
+/home/myid/sjn57152/cs1730/Nemeth-Stephen-proj3:/home/myid/csci-1730

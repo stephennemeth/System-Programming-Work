@@ -1,0 +1,12 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command "make compile"
+    or run command "gcc -o lab11.out lab11.c"
+    and command "gcc -o countdown.out countdown.c"
+
+to run:
+    run command "make run" for predefined command line arguments
+    or run command "./lab11.out #" where
+    # is an integer to start the countdown from.

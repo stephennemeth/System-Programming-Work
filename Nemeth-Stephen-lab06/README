@@ -1,0 +1,10 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+To compile:
+    run command "make compile"
+    or run command "g++ -o lab06.out lab06.cpp"
+
+To run:
+    run command "make run"
+    or run command "./lab06.out"

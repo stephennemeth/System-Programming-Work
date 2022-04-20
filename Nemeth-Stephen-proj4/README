@@ -1,0 +1,27 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command "make compile"
+    or run command "gcc -o proj4.out proj4.c"
+
+to run:
+    run command "make run"
+    or run command "./proj4.out <file1> <file2>"
+    where <file1> and <file2> are names of files
+    to compare.
+
+
+Time Theory:
+    The reason that step1 is signinficantly slower than step2
+    is because step1 is reading each individual byte one by one
+    from the files so it can compare then. While, step2 is
+    reading the while files into arrays and using the arrays
+    to compare that two files which speeds things up signinficantly.
+    Instead of calling a function each time to read a character from the file,
+    checking if that character is the same, and then writing it, step2 is 
+    do one call to read the entire file into arrays and then using the arrays
+    to check the differences which is constant time. Then step2 is only
+    using one function call to write the contents of the difference array to
+    the difference file. All together this means that step2 is significantly
+    faster than step1 for files of large sizes.

@@ -1,0 +1,10 @@
+Nemeth-Stephen-lab11:
+total 40
+-rw-r--r--. 1 myid   335 Apr 18 11:52 countdown.c
+-rwxr-xr-x. 1 myid  9712 Apr 18 11:53 countdown.out
+-rw-r--r--. 1 myid  1162 Apr 18 11:52 lab11.c
+-rwxr-xr-x. 1 myid 10448 Apr 18 11:53 lab11.out
+-rw-r--r--. 1 myid   161 Apr 13 12:34 Makefile
+-rw-r--r--. 1 myid   342 Apr 18 11:55 README
+-rw-r--r--. 1 myid     0 Apr 18 11:56 rec17452
+/home/myid/sjn57152/cs1730/Nemeth-Stephen-lab11:/home/myid/csci-1730

@@ -1,0 +1,29 @@
+Stephen Nemeth
+811517158
+
+To compile:
+    run command "make compile" or
+    "g++ -Wall -pedantic-errors -g -o lab02.out lab02.cpp"
+To run:
+    To compress:
+        run command:
+            "./lab02.out -c ..."
+            where "..." is replaced
+            with the DNA string you would like to compress.
+            All letter capitailized.
+            For example, "./lab02.out -c GGGGGGGG"
+            will output "8 255 255".
+    To decompress:
+        run command:
+            "./lab02.out -d ..."
+            where "..." is replaced
+            with the length of the DNA string and followed by
+            a sequence of 8 bit integers, representing unsigned chars,
+            representing a compressed DNA string,
+            For example, "./lab02.out -d 8 255 255"
+            8 is the length of the DNA string and
+            the numbers after that represent the compressed DNA string.
+            This will output GGGGGGGG as the uncompressed DNA string
+
+    Or run command "make run" which will run predifined compress
+    and decompress commands outined in the Makefile in this directory.

@@ -1,0 +1,16 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command "make compile" or "make"
+
+to run:
+    run command "./proj.out # #"
+    where # is either a "-h" or "-c"
+    to denote the player as a HumanPlayer
+    or a SimpleComputer player
+    
+    or 
+
+    run command "make run" for 2
+    HumanPlayers

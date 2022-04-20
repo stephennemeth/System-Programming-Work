@@ -1,0 +1,15 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+To compile:
+    run command "make compile"
+    or run command "gcc -o lab10.out lab10.c"
+
+To run:
+    
+    run command "make run"
+    or run command "./lab10.out #"
+    where # is a single valid
+    string of characters. If multiple
+    words surround with single or
+    double quotation marks.

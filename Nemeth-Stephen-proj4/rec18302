@@ -1,0 +1,19 @@
+Nemeth-Stephen-proj4:
+total 508
+-rw-r--r--. 1 myid 164601 Apr  4 15:03 alice1.txt
+-rw-r--r--. 1 myid 164601 Apr  4 15:03 alice2.txt
+-rw-r--r--. 1 myid      1 Apr 18 11:33 differencesFoundInFile1.txt
+-rw-r--r--. 1 myid      1 Apr 18 11:33 differencesFoundInFile2.txt
+-rw-r--r--. 1 myid 115110 Apr 14 18:59 examples.tar.gz
+-rw-r--r--. 1 myid     13 Apr  4 15:03 input1.txt
+-rw-r--r--. 1 myid     13 Apr  4 15:03 input2.txt
+-rw-r--r--. 1 myid      6 Apr  4 15:03 input3.txt
+-rw-r--r--. 1 myid      2 Apr  4 15:03 input4.txt
+-rw-r--r--. 1 myid      2 Apr  4 15:03 input5.txt
+-rw-r--r--. 1 myid      7 Apr  4 15:03 input6.txt
+-rw-r--r--. 1 myid    227 Apr 14 19:02 Makefile
+-rw-r--r--. 1 myid   3533 Apr 17 22:16 proj4.c
+-rwxr-xr-x. 1 myid  18032 Apr 17 22:16 proj4.out
+-rw-r--r--. 1 myid   1113 Apr 18 11:25 README
+-rw-r--r--. 1 myid      0 Apr 18 11:56 rec18302
+/home/myid/sjn57152/cs1730/Nemeth-Stephen-proj4:/home/myid/csci-1730

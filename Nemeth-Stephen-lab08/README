@@ -1,0 +1,12 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command:
+        make compile  
+    
+to run:
+    run command:
+        make run
+        or 
+        ./lab08.out

@@ -1,0 +1,12 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command "make compile", "make"
+    or "g++ -o lab09.out lab09.cpp"
+
+to run:
+    run command "make run" with default arguments
+    or run command "./lab09.out # # # # ..."
+    where # are numeric values, you can input
+    any number

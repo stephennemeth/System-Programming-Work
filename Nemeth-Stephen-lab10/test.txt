@@ -1,0 +1,7 @@
+total 28
+-rw-r--r--. 1 sjn57152 myid  764 Apr  7 09:10 lab10.c
+-rwxr-xr-x. 1 sjn57152 myid 9536 Apr 11 12:33 lab10.out
+-rw-r--r--. 1 sjn57152 myid  158 Apr  6 13:40 Makefile
+-rw-r--r--. 1 sjn57152 myid  333 Apr  7 09:12 README
+-rw-r--r--. 1 sjn57152 myid  328 Apr 11 12:33 rec19858
+-rw-r--r--. 1 sjn57152 myid    0 Apr 11 18:58 test.txt

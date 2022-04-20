@@ -1,0 +1,11 @@
+Name: Stephen Nemeth
+UGA ID: 811517158
+
+To Compile:
+    Run the command make compile or
+    run g++ lab01.out lab01.cpp
+
+To Run:
+    Run the command make run or
+    ./lab01.out and supply 2 positive integers
+    as command line arguments

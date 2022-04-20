@@ -1,0 +1,15 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+To compile:
+   run comand:
+   make compile
+   or
+   g++ -g -Wall -pedantic-errors -o lab07.out lab07.cpp
+
+To run:
+   run command:
+   make run: for predefined input
+   or
+   ./lab07.out # # #
+   where the #s are integer values
