@@ -1,0 +1,23 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+To Compile:
+    Run the command "make compile" in the terminal
+
+To Run:
+    Run command "make run" for predefined commands
+    that will run
+
+    Or
+
+    Run command following the format:
+
+    ./proj1.out -[a/b] -v # # # # # -e #
+
+    Where "-[a/b]" denotes arithmetic or bitwise expressions, "-a"
+    for arithemtic expressions and "-b for bitwise and then
+    the five integer numbers after "-v" represent the values used in
+    calculations, and the integer number after "-e" is the target
+    integer value expressions should be evaluated to. The flags 
+    following their numbers can be placed in any order within the 
+    command line.

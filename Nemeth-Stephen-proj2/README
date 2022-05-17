@@ -1,0 +1,14 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+To Compile:
+    run command: 
+        gcc -o proj2.out proj2.command
+        or
+        make compile
+
+To Run:
+    run command:
+        make run
+        or
+        ./proj2.out
