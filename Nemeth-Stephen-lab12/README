@@ -1,0 +1,11 @@
+Name: Stephen Nemeth
+UGA #: 811517158
+
+to compile:
+    run command "make compile"
+    or run command "gcc -o lab12.out lab12.c"
+
+to run:
+    run command "make run"
+    or run command "./lab12.out"
+    

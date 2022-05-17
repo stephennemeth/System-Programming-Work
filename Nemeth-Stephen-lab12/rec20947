@@ -1,0 +1,11 @@
+Nemeth-Stephen-lab12:
+total 36
+-rw-r--r--. 1 myid    16 Apr 24 15:14 input1.txt
+-rw-r--r--. 1 myid    18 Apr 25 12:18 input2.txt
+-rw-r--r--. 1 myid    46 Apr 25 12:18 input3.txt
+-rw-r--r--. 1 myid  2056 Apr 25 12:35 lab12.c
+-rwxr-xr-x. 1 myid 11920 Apr 25 12:35 lab12.out
+-rw-r--r--. 1 myid   143 Apr 19 15:23 Makefile
+-rw-r--r--. 1 myid   201 Apr 25 12:32 README
+-rw-r--r--. 1 myid     0 Apr 25 12:49 rec20947
+/home/myid/sjn57152/cs1730/Nemeth-Stephen-lab12:/home/myid/csci-1730
